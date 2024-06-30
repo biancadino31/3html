@@ -1,0 +1,87 @@
+@import url("styles/header.css");
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+
+:root {
+  
+    --cor-de-fundo: #466566;
+    --verde:#447e77;
+    --escuro: #1acece;
+    --azul-degrade:linear-gradient(97.54deg, #133758 35.49%, #4d6eac 165.37%);
+    --fonte-principal: "Poppins";
+    --azul-blacl: #081191d5;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+   font-family: var(--fonte-principal);
+   font-size: 16px;
+   font-weight: 400;
+ 
+
+}
+
+.swiper-wrapper {
+    display: flex;
+  }
+  
+  .swiper-slide {
+    flex: 0 0 245.17px; /* Define a largura fixa de 245.17 pixels */
+    height: 345px; /* Define a altura fixa de 345 pixels */
+    margin-right: 10px; /* Espaçamento entre as imagens (opcional) */
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para manter a proporção da imagem */
+  }
+
+  .carrssel__titulo {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 1rem; /* Tamanho do texto */
+    color: #000000; /* Cor do texto */
+  }
+
+  .descrição__titulo{
+    color: #03273a;
+    font-weight: 700;
+  }
+  .card__descrição {
+    width: 380px;
+    height: 295px;
+  
+    padding: 20px;
+    
+}
+
+.descrição {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descrição__titulo {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.descrição__titulo-livro {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.descrição__texto {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.tópicos__lista {
+  display: flex;
+}
+
+
